@@ -1,0 +1,19 @@
+{
+    "name": "hashimahmedali/p5",
+    "description": "Tech Blog",
+    "autoload": {
+        "psr-4": {
+            "Hashimahmedali\\P5\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hashim.alij",
+            "email": "hashim.ahmed.ali@visioncmi.fr"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.6"
+    }
+    
+}
