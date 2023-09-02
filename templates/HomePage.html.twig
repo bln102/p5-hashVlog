@@ -1,3 +1,18 @@
-{% extends "index.html.twig" %}
+{% extends "Index.html.twig" %}
 
-{% block title %}This is  a test{% endblock %}
+{% block main %}
+<div class="p-5">
+    <div >
+    <h1>Hashim AHMED ALI</h1>
+    <h3>le développeur qu’il vous faut !</h3>
+    </div>
+
+    {# Blogs #}
+    {% include "Blogs.html.twig" %}
+
+    {# Contact Form #}
+    {% include "Contact.html.twig" %}
+
+</div>
+
+{% endblock %}
